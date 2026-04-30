@@ -15,14 +15,8 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <Rooms />
-      <Heading title="Popular Rooms" />
       <PoplarSection />
       <ServicesSection />
-
-
-
-
-
     </div>
   );
 }
