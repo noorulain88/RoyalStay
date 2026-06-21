@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function RecentsBookingCards({GuestName,RoomType,CheckInDate,CheckOutDate,status}) {
   return (
-    <div>
-        <div className='  bg-white text-black  gap-6  py-4 px-4 rounded-lg shadow-md'>
+    <div >
+        <div className='  bg-white text-black grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3  py-4 px-4 rounded-lg shadow-md'>
           
             <p className='font-semibold '>{GuestName}</p>
             <p className='font-semibold'> {RoomType}</p>

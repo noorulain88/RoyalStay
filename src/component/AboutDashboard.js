@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AboutDashboard() {
   return (
-    <div className="flex justify-center gap-8 bg-black text-white  hover:shadow-lg hover:shadow-gray-400  w-200 m-auto  py-4 mt-4 rounded-full shadow-md hover:scale-110">
+    <div className="flex  lg:text-lg md:text-md sm:text-sm     justify-center gap-8 bg-black text-white  hover:shadow-lg hover:shadow-gray-400  w-full m-auto  py-4 mt-4 rounded-full shadow-md hover:scale-110">
       
       <Link href="/" className="hover:text-gray-300">
         Home

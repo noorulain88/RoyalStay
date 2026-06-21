@@ -4,7 +4,7 @@ import Reviews from '@/Data/Reviews'
 
 export default function ReviewsSection() {
   return (
-    <div className='w-full grid grid-cols-3 bg-zinc-50 text-black py-8'>
+    <div className='w-full grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4   bg-zinc-50 text-black py-8'>
       
             {Reviews.map((item) => (
                   < ReviewsCards

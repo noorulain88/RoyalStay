@@ -6,18 +6,3 @@ const Button=({children,handleClick,classes})=>{
 export default Button
 
 
-// const sayHello=()=>{
-//     console.log("hello")
-// }
-
-{/* <button onClick={sayHello}>submit</button> */}
-
-// <Button handleClick={sayHello}>Submit</Button>
-
-
-
-
-// const delete=()=>{
-//     console.log("delelte")
-// }
-// <Button handleClick={delete}>Delete</Button>

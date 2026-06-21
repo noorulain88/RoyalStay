@@ -9,7 +9,7 @@ export default function PoplarSection() {
       {/* <Heading title="Popular Rooms" /> */}
       <Heading>Popular Rooms</Heading> 
 
-    <div className='w-full grid grid-cols-3 bg-zinc-100 text-black'>
+    <div className='w-full grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 justify-items-center bg-zinc-100 text-black'>
         {PoplarData.map((item) => (
           <PoplarCard
             key={item.id}

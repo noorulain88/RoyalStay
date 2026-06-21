@@ -5,7 +5,7 @@ import RecentsBookingCards from './RecentsBookingCards'
 export default function RecentsBookingSection() {
   return (
 
-    <div className=' w-full gap-9 grid grid-cols-4 bg-zinc-100  py-8 px-4'>
+    <div className='  w-full gap-9  bg-zinc-100  py-8 px-4'>
        
           {RecentBooking.map((item) => (
               <RecentsBookingCards

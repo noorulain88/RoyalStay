@@ -5,7 +5,7 @@ import AboutBookingsCard from './AboutBookingsCard'
 export default function AboutBookingsSection() {
   return (
     <div>
-   <div  className='w-full grid grid-cols-4 p-2 gap-6 bg-zinc-100 text-black'>
+   <div  className='w-full grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-2 p-2 gap-6 bg-zinc-100 text-black'>
        {Booking.map((item) => (
              <AboutBookingsCard
                key={item.id}
